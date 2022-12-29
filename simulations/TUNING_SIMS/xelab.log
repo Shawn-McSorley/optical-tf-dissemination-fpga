@@ -1,0 +1,28 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe -top PHASEMETER_V4_TB -snapshot PM_SIM 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'en' remains unconnected for this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:46]
+WARNING: [VRFC 10-5021] port 'S_AXIS_SOURCE_tvalid' is not connected on this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:46]
+WARNING: [VRFC 10-3645] port 'S_AXIS_WORD_tdata' remains unconnected for this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:117]
+WARNING: [VRFC 10-5021] port 'S_AXIS_WORD_tvalid' is not connected on this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:117]
+WARNING: [VRFC 10-3645] port 'S_AXIS_WORD_tdata' remains unconnected for this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:118]
+WARNING: [VRFC 10-5021] port 'S_AXIS_WORD_tvalid' is not connected on this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4_TB.v:118]
+WARNING: [VRFC 10-3645] port 'DITHER_SCALE' remains unconnected for this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4.v:158]
+WARNING: [VRFC 10-3645] port 'd_clk' remains unconnected for this instance [Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/TUNING_SIMS/PHASEMETER_V4.v:179]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.NCO_V4(PHASE_BITS=16)
+Compiling module work.MIXER_V4_default
+Compiling module work.CIC_V4(N=1,R=4064)
+Compiling module work.PIG_V4
+Compiling module work.OLINT_V4
+Compiling module work.PHASEMETER_V4(GUESS=343597384,R=...
+Compiling module work.NCO_axis(WORD=343597384,OFFSET=3...
+Compiling module work.NCO_axis(WORD=343597384)
+Compiling module work.PHASEMETER_V4_TB
+Built simulation snapshot PM_SIM

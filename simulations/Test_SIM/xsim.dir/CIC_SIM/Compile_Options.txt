@@ -1,0 +1,1 @@
+-top "CIC_FREQS_TB" -snapshot "CIC_SIM" 

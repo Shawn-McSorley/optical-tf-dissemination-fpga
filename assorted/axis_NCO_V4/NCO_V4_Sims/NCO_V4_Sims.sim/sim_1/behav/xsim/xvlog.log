@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NCO_V4
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sim_1/new/NCO_V4_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NCO_V4_TB

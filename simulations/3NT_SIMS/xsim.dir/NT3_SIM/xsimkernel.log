@@ -1,0 +1,7 @@
+Running: xsim.dir/NT3_SIM/xsimk.exe -runall -simmode gui -wdb NT3_SIM.wdb -simrunnum 0 -socket 50445
+Design successfully loaded
+Design Loading Memory Usage: 9416 KB (Peak: 9416 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 11548 KB (Peak: 11548 KB)
+Simulation CPU Usage: 786905 ms

@@ -1,0 +1,306 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Nov 28 11:46:45 2022
+# Process ID: 18956
+# Current directory: Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.runs/synth_1
+# Command line: vivado.exe -log NCO_V4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NCO_V4.tcl
+# Log file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.runs/synth_1/NCO_V4.vds
+# Journal file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.runs/synth_1\vivado.jou
+# Running On: DESKTOP-ONE956D, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8502 MB
+#-----------------------------------------------------------
+source NCO_V4.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1304.250 ; gain = 554.957
+Command: synth_design -top NCO_V4 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2592
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'NCO_V4' [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:3]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Synth 8-251] 8 phase bits [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:82]
+INFO: [Synth 8-251] x 14'bxxxxxxxxxxxxxx [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:85]
+INFO: [Common 17-14] Message 'Synth 8-251' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element PHASE_reg was removed.  [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:91]
+WARNING: [Synth 8-6014] Unused sequential element PHASE_COS_reg was removed.  [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'NCO_V4' (1#1) [Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.srcs/sources_1/new/NCO_V4.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|NCO_V4      | SINE_LUT   | 256x14        | LUT            | 
+|NCO_V4      | SINE_LUT   | 256x14        | LUT            | 
+|NCO_V4      | p_0_out    | 256x14        | LUT            | 
+|NCO_V4      | p_0_out    | 256x14        | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |    32|
+|4     |LUT4   |     2|
+|5     |LUT5   |     2|
+|6     |LUT6   |   100|
+|7     |FDCE   |    60|
+|8     |IBUF   |    34|
+|9     |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   267|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1304.250 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1304.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1304.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 6a27adb4
+INFO: [Common 17-83] Releasing license: Synthesis
+115 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1304.250 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'Z:/Uni/ICRAR_Internship/Phasemeter/axis_NCO_V4/NCO_V4_Sims/NCO_V4_Sims.runs/synth_1/NCO_V4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NCO_V4_utilization_synth.rpt -pb NCO_V4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 28 11:47:37 2022...

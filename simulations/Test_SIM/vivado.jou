@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Dec  4 14:52:38 2022
+# Process ID: 21340
+# Current directory: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM
+# Command line: vivado.exe -mode tcl
+# Log file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM/vivado.log
+# Journal file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM\vivado.jou
+# Running On: DESKTOP-4464SGN, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17129 MB
+#-----------------------------------------------------------
+source run_sim.tcl
+xvlog CIC_V4.v
+run_sim.tcl
+source run_sim.tcl
+source run_sim.tcl

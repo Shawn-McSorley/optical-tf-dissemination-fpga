@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Dec  6 11:25:29 2022
+# Process ID: 14896
+# Current directory: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM
+# Command line: xsim.exe -mode tcl -source {xsim.dir/CIC_SIM/xsim_script.tcl}
+# Log file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM/xsim.log
+# Journal file: Z:/Uni/ICRAR_Internship/Phasemeter/axis_Phasemeter_V4/Test_SIM\xsim.jou
+# Running On: DESKTOP-ONE956D, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8502 MB
+#-----------------------------------------------------------
+source xsim.dir/CIC_SIM/xsim_script.tcl
+run -all
