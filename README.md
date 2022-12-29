@@ -1,29 +1,15 @@
 # Stabilised Optical Time and Frequency Dissemination using Digitally Enhanced Heterodyne Interferometry
 
-This repository contains Verilog modules and example projects for use on the Red Pitaya FPGA as part of a research project on stabilised optical time and frequency dissemination using digitally enhanced heterodyne interferometry.
+This repository contains code and projects for use on the Red Pitaya FPGA. It is intended for use in a research project on stabilised optical time and frequency dissemination using digitally enhanced heterodyne interferometry.
 
-## Contents
+## Directory Structure
 
-The repository is organized as follows:
-
-- `cores`: This directory contains Verilog modules that can be used as standard IP cores in Vivado. These modules include a CIC filter, a data logger, an NCO, a phasemeter, a PIG controller, a PRBS generator, and some other cores used for boilerplate logic.
+- `cores`: This directory contains Verilog modules that can be used as standard IP cores in Vivado. These cores can be used standalone or as part of larger projects. Detailed instructions on setting up and using these cores can be found in the `docs/installation_instructions.md` and `docs/usage_instructions.md` files.
 - `examples`: This directory contains example projects that use the cores in the `cores` directory.
-- `docs`: This directory contains documentation for the repository, including installation instructions, usage instructions, and an API reference.
+- `simulation`: This directory contains code and testbenches for simulating the functionality of the cores and example projects. It is organized into subdirectories, each corresponding to a specific core or example project.
 
-## Installation
+## Additional Resources
 
-To install and use the cores and example projects in this repository, please follow the instructions in the `docs/installation_instructions.md` file.
-
-## Usage
-
-For instructions on how to use the cores and example projects in this repository, please see the `docs/usage_instructions.md` file.
-
-## API Reference
-
-For more detailed information on the API for each of the cores in this repository, please see the `docs/api_reference.md` file.
-
-## License
-
-This repository is licensed under the [insert license name here] license. Please see the `LICENSE` file for more information.
+- `docs`: This directory contains documentation and instructions for using the code and projects in this repository.
 
 I hope this README file is helpful! Let me know if you have any questions or need further assistance.
