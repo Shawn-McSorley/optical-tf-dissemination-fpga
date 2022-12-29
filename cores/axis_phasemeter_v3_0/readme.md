@@ -11,7 +11,7 @@ The module includes an NCO (numerically controlled oscillator) to generate the r
 - `PHASE_BITS`: The number of bits in the phase output. Default value is 16.
 - `AMPLITUDE_BITS`: The number of bits in the amplitude output. Default value is 14.
 - `QUAD_OUTPUT`: A flag for enabling quadrature output. Default value is 1 (enabled).
-- `QLUT`: A flag for using a LUT for quadrature output. Default value is 0 (no LUT).
+- `QLUT`: A flag for using a quarter LUT for the NCO. Default value is 0 (no Q LUT).
 - `BRAM`: A flag for using BRAM for quadrature output. Default value is 0 (no BRAM).
 - `MIXER_OUTPUT_WIDTH`: The width of the mixer output. Default value is 14.
 - `CIC_OUTPUT_WIDTH`: The width of the CIC filter output. Default value is 14.
