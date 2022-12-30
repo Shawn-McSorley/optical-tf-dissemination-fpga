@@ -1,6 +1,6 @@
 # Stabilised Optical Time and Frequency Dissemination using Digitally Enhanced Heterodyne Interferometry
 
-This repository contains code and projects for use on the Red Pitaya FPGA. It is intended for use in a research project on stabilised optical time and frequency dissemination using digitally enhanced heterodyne interferometry.
+This repository contains code and projects for use on the Red Pitaya FPGA. It is intended for use in a research project on stabilised optical time and frequency dissemination using digitally enhanced heterodyne interferometry. This project has been undertaken as an honours student and research intern at the International Centre For Radio Astronomy Research (ICRAR), with the [Astrophotonics group](https://www.icrar.org/study-with-icrar/postgraduate-opportunities/postgraduate-research-projects/astrophotonics/).
 
 ## Directory Structure
 
