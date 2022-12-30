@@ -14,3 +14,5 @@ This repository contains code and projects for use on the Red Pitaya FPGA. It is
 - `docs`: This directory contains documentation and instructions for using the code and projects in this repository.
 
 I hope this README file is helpful! Let me know if you have any questions or need further assistance.
+
+## How to Cite
