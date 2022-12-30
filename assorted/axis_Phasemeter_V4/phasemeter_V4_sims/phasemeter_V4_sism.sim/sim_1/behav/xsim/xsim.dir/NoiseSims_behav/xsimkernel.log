@@ -1,7 +1,0 @@
-Running: xsim.dir/NoiseSims_behav/xsimk.exe -simmode gui -wdb NoiseSims_behav.wdb -simrunnum 0 -socket 49333
-Design successfully loaded
-Design Loading Memory Usage: 7492 KB (Peak: 7492 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 16124 KB (Peak: 16124 KB)
-Simulation CPU Usage: 5811 ms
