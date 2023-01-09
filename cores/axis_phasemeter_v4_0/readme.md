@@ -1,6 +1,6 @@
-# PHASEMETER_V3
+# PHASEMETER_V4
 
-The PHASEMETER_V3 module takes in an input signal and outputs the phase difference between the input and a reference signal. It also has the ability to apply a phase correction to the reference signal based on the measured phase difference.
+The PHASEMETER_V4 module takes in an input signal and outputs the phase difference between the input and a reference signal. It also has the ability to apply a phase correction to the reference signal based on the measured phase difference.
 
 The module includes an NCO (numerically controlled oscillator) to generate the reference signal, a mixer to mix the input and reference signals, and a CIC (cascaded integrator-comb filter) to filter the mixed signal. The filtered mixed signal is then passed through a PI (proportional-integral) controller to generate the phase correction signal. The module also has the option to output the quadrature of the reference signal, and to measure the phase and amplitude of the input signal.
 ## Parameters
