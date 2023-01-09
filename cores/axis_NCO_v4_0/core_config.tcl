@@ -1,4 +1,4 @@
-set display_name {NCO_AXIS}
+set display_name {NCO_AXIS_V4}
 
 set core [ipx::current_core]
 
