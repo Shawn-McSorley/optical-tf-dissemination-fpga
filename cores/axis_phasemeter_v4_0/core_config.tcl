@@ -141,7 +141,10 @@ set_property enablement_dependency {$var_guess = 1} [ipx::get_bus_interfaces S_A
 set_property enablement_dependency {$CFG_EN = 1} [ipx::get_ports en -of_objects [ipx::current_core]]
 set_property enablement_dependency {$QUAD_OUTPUT = 1} [ipx::get_bus_interfaces M_AXIS_QUAD -of_objects [ipx::current_core]]
 set_property enablement_dependency {$VAR_DITHER = 1} [ipx::get_ports DITHER_SCALE -of_objects [ipx::current_core]]
-
+set_property enablement_tcl_expr {$DITHER_EN == 1 && $VAR_DITHER == 0} [ipx::get_user_parameters DITHER_SCALE_PARAM -of_objects [ipx::current_core]]
+set_property enablement_tcl_expr {$DITHER_EN == 1} [ipx::get_user_parameters VAR_DITHER -of_objects [ipx::current_core]]
+set_property enablement_tcl_expr {$DITHER_EN == 1} [ipx::get_user_parameters SEED -of_objects [ipx::current_core]]
+set_property enablement_tcl_expr {$DITHER_EN == 1} [ipx::get_user_parameters SEED2 -of_objects [ipx::current_core]]
 
 set_property display_name {NCO} [ipgui::get_pagespec -name "Page 0" -component [ipx::current_core] ]
 set_property tooltip {NCO Parameters} [ipgui::get_pagespec -name "Page 0" -component [ipx::current_core] ]

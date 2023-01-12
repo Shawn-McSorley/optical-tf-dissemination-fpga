@@ -37,9 +37,9 @@ reg signed [INPUT_WIDTH-1:0] PV;
 localparam ACTION_TRUNCATION_UP = AXIS_TDATA_WIDTH - OUTPUT_WIDTH;
 localparam ACTION_TRUNCATION_DOWN = OUTPUT_WIDTH - AXIS_TDATA_WIDTH;
 
-if(ACTION_TRUNCATION_UP > 0) assign M_AXIS_ACTION_tdata = actionReg <<< ACTION_TRUNCATION_UP;
-else if(ACTION_TRUNCATION_UP < 0) assign M_AXIS_ACTION_tdata = actionReg >>> ACTION_TRUNCATION_DOWN;
-else assign M_AXIS_ACTION_tdata = actionReg;
+if(ACTION_TRUNCATION_UP > 0) assign axis_ACTION_tdata = actionReg <<< ACTION_TRUNCATION_UP;
+else if(ACTION_TRUNCATION_UP < 0) assign axis_ACTION_tdata = actionReg >>> ACTION_TRUNCATION_DOWN;
+else assign axis_ACTION_tdata = actionReg;
 
 assign axis_ACTION_tvalid = 1'b1;
 
