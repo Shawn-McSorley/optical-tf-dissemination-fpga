@@ -231,31 +231,55 @@ generate
                 $display("%d %b", SINE_LUT[i], SINE_LUT[i]);
             end
         end
-        always @ (posedge clk or posedge rst) begin
+        
+        reg [1:0] negate;
+        reg [PHASE_BITS-3:0] index;
+        reg [AMPLITUDE_BITS-1:0] table_value;
+         
+        reg [1:0] negate_cos;
+        reg [PHASE_BITS-3:0] index_cos;
+        reg [AMPLITUDE_BITS-1:0] table_value_cos;
+        
+        always @ (posedge clk) begin
             if(rst) begin
                 ACCUMULATOR <= 0;
                 PHASE <= 0;
                 PHASE_COS <= 0;
                 SINE <= 0;
                 COS <= 0;
+                negate <= 0;
+                index <= 0;
+                table_value_cos <= 0;
+                table_value <= 0;
+                negate_cos <= 0;
+                index_cos <= 0;
+                
             end
             else begin
                 if(DITHER_EN == 1) ACCUMULATOR <= ACCUMULATOR + FREQ_WORD + DITHER_REG;
                 else ACCUMULATOR <= ACCUMULATOR + FREQ_WORD;
                 PHASE = ACCUMULATOR[ACCUM_WIDTH-1:ACCUM_WIDTH-PHASE_BITS];
                 PHASE_COS = ACCUMULATOR[ACCUM_WIDTH-1:ACCUM_WIDTH-PHASE_BITS]+COS_OFFSET;
-                case(PHASE[PHASE_BITS-1:PHASE_BITS-2]) 
-                2'b00 : SINE <= SINE_LUT[PHASE[PHASE_BITS-3:0]]; //First quarter
-                2'b01 : SINE <= SINE_LUT[~PHASE[PHASE_BITS-3:0]]; //Second quarter
-                2'b10 : SINE <= -SINE_LUT[PHASE[PHASE_BITS-3:0]]; //Third quarter
-                2'b11 : SINE <= -SINE_LUT[~PHASE[PHASE_BITS-3:0]]; //Fourth quarter
-                endcase
-                case(PHASE_COS[PHASE_BITS-1:PHASE_BITS-2]) 
-                2'b00 : COS <= SINE_LUT[PHASE_COS[PHASE_BITS-3:0]]; //First quarter
-                2'b01 : COS <= SINE_LUT[~PHASE_COS[PHASE_BITS-3:0]]; //Second quarter
-                2'b10 : COS <= -SINE_LUT[PHASE_COS[PHASE_BITS-3:0]]; //Third quarter
-                2'b11 : COS <= -SINE_LUT[~PHASE_COS[PHASE_BITS-3:0]]; //Fourth quarter
-                endcase
+                
+                negate[0] <= PHASE[PHASE_BITS-1];
+                if(PHASE[PHASE_BITS-2]) index <= ~PHASE[PHASE_BITS-3:0];
+                else index <= PHASE[PHASE_BITS-3:0];
+                
+                negate_cos[0] <= PHASE_COS[PHASE_BITS-1];
+                if(PHASE_COS[PHASE_BITS-2]) index_cos <= ~PHASE_COS[PHASE_BITS-3:0];
+                else index_cos <= PHASE_COS[PHASE_BITS-3:0];
+                
+                table_value <= SINE_LUT[index];
+                negate[1] <= negate[0];
+                
+                table_value_cos <= SINE_LUT[index_cos];
+                negate_cos[1] <= negate_cos[0];
+                
+                if (negate[1]) SINE <= -table_value;
+		        else SINE <= table_value;
+		        
+		        if (negate_cos[1]) COS <= -table_value_cos;
+		        else COS <= table_value_cos;
             end
         end
     end
