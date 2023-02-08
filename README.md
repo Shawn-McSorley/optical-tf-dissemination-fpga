@@ -9,6 +9,10 @@ This repository contains code and projects for use on the Red Pitaya FPGA. It is
 - `examples`: This directory contains example projects that use the cores in the `cores` directory.
 - `simulation`: This directory contains code and testbenches for simulating the functionality of the cores and example projects. It is organized into subdirectories, each corresponding to a specific core or example project.
 
+## Qquick Start
+
+A blank vivado project for the Red Pitaya can be found at [Anton Potočnik's website](http://antonpotocnik.com/?p=487360), simply place my IP cores in the `cores` folder into the project's `cores` folder and execute the tcl scripts as described by Anton. 
+
 ## Additional Resources
 
 - `docs`: This directory contains documentation and instructions for using the code and projects in this repository.
