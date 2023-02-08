@@ -149,7 +149,7 @@ Sign3.set("1")
 KP3=tk.StringVar()
 KP3.set("0")
 KI3=tk.StringVar()
-KI3.set("-8")
+KI3.set("-6")
 KG3=tk.StringVar()
 KG3.set("-16")
 se2 = tk.Entry(top, textvariable = Sign3)
@@ -184,11 +184,11 @@ label8a.grid(row = 8, column = 9)
 PRNClk=tk.StringVar()
 PRNClk.set("5")
 PRNk=tk.StringVar()
-PRNk.set("0")
+PRNk.set("4")
 PRNd=tk.StringVar()
-PRNd.set("40")
+PRNd.set("10")
 PRNd2=tk.StringVar()
-PRNd2.set("20")
+PRNd2.set("21")
 clke = tk.Entry(top, textvariable = PRNClk)
 clke.grid(row = 5, column = 10)
 kee = tk.Entry(top, textvariable = PRNk)
@@ -379,7 +379,7 @@ def plotPhase(filename, DS, TIME, LOG_NUM, title, t):
         byte = fp.read(4)
         time.append(i*(2**DS/125000000))
         if(t == 0):    
-            percentCycle = float(int.from_bytes(byte,"little",signed=True))/(2**(int(LOGSCALE.get())))
+            percentCycle = float(int.from_bytes(byte,"little",signed=False))/(2**(int(LOGSCALE.get())))
         elif(t == 1):
             percentCycle = float(int.from_bytes(byte,"little",signed=True))/2**32
             if(percentCycle < 0):
@@ -389,9 +389,9 @@ def plotPhase(filename, DS, TIME, LOG_NUM, title, t):
         #     percentCycle = 1-percentCycle
         data.append(percentCycle)
         data_welch.append(percentCycle * 2 * np.pi)
-    plt.plot(time[100:], data[100:])
+    plt.plot(time[1000:], data[1000:])
     plt.title("{} Measurement Logger {} Sample Freq {} Hz".format(title, LOG_NUM,125000000/2**DS))
-    f, Pxx_den = welch(data_welch[100:], 125000000.0/2**DS, nperseg=2**18)
+    f, Pxx_den = welch(data_welch[1000:], 125000000.0/2**DS, nperseg=2**18)
     
     plt.figure(figsize=(16,6)) # set figure size
     gs = gridspec.GridSpec(1, 2, width_ratios=[4, 3])
@@ -414,7 +414,6 @@ def plotPhase(filename, DS, TIME, LOG_NUM, title, t):
     # ax1.set_ylim([10**-12,10**0])
     ax1.set_xlim([10**-1,10**4])
     
-    sampTime = 1
     xscale = 10
     yscale = 5
     fmeas = 1e7
@@ -552,10 +551,11 @@ def update():
         cmd = PIG0_CMD + PRN_PARAM_CMD + PRN_DEL_CMD + PRN_DEL_CMD2 + NCO_RST_CMD + NCO_RST_CMD_LOW + NCO0_CMD + PM_CMD2 + NCO1_CMD + DS_CMD + PIG2_CMD + PRBS_CMD + G1_CMD + G2_CMD + PM_CMD + V_CMD + RUN_CMD
         print(cmd)
     
-    
+    ts = int(ceil(19456*(2**log_ds)/125000000*NTRANSFERS1))
+    print("Time to sleep: " + str(ts) + "s")
     ch[0].send(cmd)
-    ts = int(ceil(19456*(2**log_ds)/125000000)*NTRANSFERS1)
-    print(ts)
+    
+    
     time.sleep(ts+1)
     resp = ch[0].recv(9999)
     output = resp.decode('ascii').split(',')
