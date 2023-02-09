@@ -474,4 +474,4 @@ connect_bd_net [get_bd_pins PRBS_test_0/PRBS] [get_bd_pins xlconcat_0/In7]
 connect_bd_intf_net [get_bd_intf_pins RX_PHASE/RX_LOG_0/S_AXIS_PRBS_FILT] [get_bd_intf_pins PRBS_test_0/M_AXIS_FILTERED]
 
 assign_bd_address -target_address_space /axi_dma_0/Data_S2MM [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] -force
-
+set_property CONFIG.FREQ_HZ 125000000 [get_bd_intf_pins /RX_PHASE/LOGGER_0/s_axis_CH1]
