@@ -31,10 +31,10 @@ module PHASEMETER_V4#
     parameter integer PHASE_BITS = 16,
     parameter integer AMPLITUDE_BITS = 14,
     parameter integer QUAD_OUTPUT = 1,
-    parameter integer QLUT = 0,
-    parameter integer BRAM = 0,
+    parameter integer QLUT = 1,
+    parameter integer BRAM = 1,
     parameter DITHER_EN = 0, //Enable Dither
-    parameter integer DITHER_SCALE_PARAM = 2097151,
+    parameter integer DITHER_SCALE_PARAM = "00000000000111111111111111111111",
     parameter VAR_DITHER = 1,
     parameter integer SEED = 36421,
     parameter integer SEED2 = 94352,
