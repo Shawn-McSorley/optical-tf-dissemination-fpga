@@ -3,12 +3,12 @@
 module NCO_V4#
 (parameter AXIS_TDATA_WIDTH = 32,
 parameter ACCUM_WIDTH = 32,
-parameter PHASE_BITS = 14,//>= AMP+2
+parameter PHASE_BITS = 16,//>= AMP+2
 parameter AMPLITUDE_BITS = 14,
-parameter BRAM = 0,//Use BRAM instead of LUT cells
-parameter QLUT = 0, //Use quarter look up table
+parameter BRAM = 1,//Use BRAM instead of LUT cells
+parameter QLUT = 1, //Use quarter look up table
 parameter DITHER_EN = 0, //Enable Dither
-parameter integer DITHER_SCALE_PARAM = 2097151,
+parameter integer DITHER_SCALE_PARAM = "00000000000111111111111111111111",
 parameter VAR_DITHER = 1,
 parameter integer SEED = 36421,
 parameter integer SEED2 = 94352
